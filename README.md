@@ -3,12 +3,21 @@
 ## Submission Date
 July 12, 2025
 
-## My Role  
 By Carllos Watts-Nogueira  
 
 As the sole developer and analyst, I designed and implemented an end-to-end machine learning pipeline in the context of my academic journey at the University of San Diego’s AI and Machine Learning program, powered by Fullstack Academy (Anticipated Graduation Date: October 2025).
 
 The project exemplifies the hands-on skill development central to the bootcamp, covering topics such as applied data science, machine learning, deep learning, NLP, and generative AI. I engineered features, cleaned and scaled data, built and tuned regression models, conducted exploratory testing with PCA and polynomial transformations, and evaluated performance using industry-standard metrics.
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
+![Model](https://img.shields.io/badge/Best%20Model-Poly_Lasso%20(R²%3D0.739)-success.svg)
+![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-Custom%20Interactions-orange.svg)
+![PCA](https://img.shields.io/badge/PCA-Optional-lightgrey.svg)
+![Pipeline](https://img.shields.io/badge/ML%20Pipeline-4%20Versions-yellow.svg)
+![Platform](https://img.shields.io/badge/Platform-Jupyter%20Notebook-blueviolet.svg)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red.svg)
 
 ## Project Objective
 Forecast hourly bike rental demand based on weather and time-based features, applying various regression techniques and modeling workflows.
