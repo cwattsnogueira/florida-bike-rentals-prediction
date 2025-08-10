@@ -58,3 +58,19 @@ These forecasts can support:
 - Extend feature engineering (e.g., time-of-day bins, lag features)
 - Try ensemble models (RandomForest, XGBoost)
 - Create visual dashboards for ongoing monitoring
+
+---
+
+## Additional Testing – Final Model Evaluation (August 2025)
+
+A new round of testing was conducted to validate model performance using updated metrics and a refined pipeline.
+
+📁 Folder: [`update_model_test_lasso`](./update_model_test_lasso)
+
+This folder contains:
+- A new notebook with updated evaluation and cross-validation
+- A saved production-ready model (`best_model_lasso.pkl`)
+- A dedicated README summarizing the results and rationale
+
+The best model from this round was **Lasso Regression**, selected for its balanced performance across MAE, MSE, and R², and its suitability for deployment.
+
