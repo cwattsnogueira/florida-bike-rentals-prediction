@@ -1,4 +1,4 @@
-#  Final Model Evaluation – August 2025
+#  Model Evaluation – August 2025
 
 ## Overview
 
