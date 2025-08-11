@@ -74,3 +74,34 @@ This folder contains:
 
 The best model from this round was **Lasso Regression**, selected for its balanced performance across MAE, MSE, and R², and its suitability for deployment.
 
+### Key Improvements
+
+- **Removed PCA from final pipeline**  
+  This version uses only original features and engineered interactions.
+
+- **Enhanced Feature Engineering**  
+  - Added temporal features: `Weekday`, `IsWeekend`, `Month`, `Hour`  
+  - Created meaningful interactions:  
+    - `Temperature × Humidity`  
+    - `Hour × Weekday`  
+    - `Wind × Visibility`  
+    - `Temperature × Month`  
+  - Scaled all numerical features using `StandardScaler`
+
+- **Polynomial Feature Expansion**  
+  - Applied `PolynomialFeatures(degree=3)` to selected variables  
+  - Captured complex nonlinear relationships without overfitting
+
+- **Model Selection & Evaluation**  
+  - Compared Linear, Ridge, Lasso, ElasticNet, and Polynomial Regression  
+  - Used `GridSearchCV` for hyperparameter tuning  
+  - Applied 5-fold cross-validation and test set evaluation  
+  - Final model: **Lasso Regression** with R² = 0.556 and lowest MAE
+
+### Business Impact
+
+These forecasts support:
+- Resource planning during peak hours  
+- Weather-based fleet allocation  
+- Staffing, dynamic pricing, and maintenance scheduling  
+- Integration into real-time decision systems
